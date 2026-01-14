@@ -28,6 +28,7 @@
 
 ## 致谢
 - BLP 编解码库：https://github.com/WarRaft/blp-lib
+- 作者：WarRaft（https://github.com/WarRaft）
 
 ---
 
@@ -60,3 +61,4 @@ Log file: `处理日志.log`
 
 ### Acknowledgements
 - BLP library: https://github.com/WarRaft/blp-lib
+- Author: WarRaft (https://github.com/WarRaft)
