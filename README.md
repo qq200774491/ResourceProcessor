@@ -25,3 +25,32 @@
 ## 说明
 - 未调整的文件会原样拷贝到输出目录。
 - BLP 编解码通过 `blp.dll` 完成。
+
+---
+
+## English
+GUI tool for batch processing BLP/TGA textures. It recursively scans a folder, resizes textures that exceed the target size or are not powers of two to the largest power-of-two size not exceeding the target, then outputs results to a timestamped folder and writes a log.
+
+### Features
+- Batch process .blp / .tga
+- Auto-resize when larger than target or not power-of-two
+- Preserve aspect ratio with LANCZOS resampling
+- Auto-create output folder and log
+
+### Requirements
+- Windows
+- Python 3.8+ (Tkinter included)
+- Pillow (`pip install pillow`)
+- `blp.dll` in the same folder as the script
+
+### Usage
+1. Run `python blp_texture_tool.py`
+2. Choose the input folder and target size
+3. Click "Start"
+
+Output folder format: `<input>_输出_YYYYMMDD_HHMMSS`  
+Log file: `处理日志.log`
+
+### Notes
+- Files that do not need resizing are copied as-is.
+- BLP encode/decode is handled by `blp.dll`.
