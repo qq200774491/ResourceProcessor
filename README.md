@@ -26,6 +26,9 @@
 - 未调整的文件会原样拷贝到输出目录。
 - BLP 编解码通过 `blp.dll` 完成。
 
+## 致谢
+- BLP 编解码库：https://github.com/WarRaft/blp-lib
+
 ---
 
 ## English
@@ -54,3 +57,6 @@ Log file: `处理日志.log`
 ### Notes
 - Files that do not need resizing are copied as-is.
 - BLP encode/decode is handled by `blp.dll`.
+
+### Acknowledgements
+- BLP library: https://github.com/WarRaft/blp-lib
